@@ -25,7 +25,7 @@ public class chap3Exercise {
         List<WebElement> links = driver.findElements(By.tagName("li"));
         System.out.println(links.size() + " menu elements on this page");
 
-        //driver.quit();
+        driver.quit();
     }
 
     public static void main(String args[]){
