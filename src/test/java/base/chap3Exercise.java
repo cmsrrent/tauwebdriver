@@ -26,6 +26,7 @@ public class chap3Exercise {
         System.out.println(links.size() + " menu elements on this page");
 
         driver.quit();
+        //added from GitHub
     }
 
     public static void main(String args[]){
