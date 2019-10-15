@@ -3,12 +3,12 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class SecureAreaPage {
+public class SecureareaPage {
 
     private WebDriver driver;
     private By statusAlert = By.id("flash");
 
-    public SecureAreaPage(WebDriver driver) {
+    public SecureareaPage(WebDriver driver) {
         this.driver = driver;
     }
 

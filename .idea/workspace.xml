@@ -2,15 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15daf6c3-d5af-4c11-87f1-989a25fbefe4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SecureAreaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/login/LoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DropdownPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/EmailSentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ForgotPasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HoversPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dropdown/DropdownTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hover/HoverTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/login/ForgottenpasswordTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/DropdownPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/EmailSentPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/ForgotPasswordPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/dropdown/DropdownTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/login/ForgottenpasswordTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/chap3Exercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/chap3Exercise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SecureAreaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SecureareaPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/login/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/login/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/SecureAreaPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SecureAreaPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/login/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/login/LoginTests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +53,7 @@
   <component name="ProjectId" id="1RTUYLC9QPHq7c2Z4ELQmptDq5Y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -59,34 +74,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTests.testSuccessfulLogin (2)">
-    <configuration name="BaseTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.BaseTests" />
+  <component name="RunManager" selected="TestNG.HoverTests">
+    <configuration name="DropdownTests.testSelectOption" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.*" />
+          <option name="PATTERN" value="dropdown.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="dropdown" />
+      <option name="MAIN_CLASS_NAME" value="dropdown.DropdownTests" />
+      <option name="METHOD_NAME" value="testSelectOption" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chap3Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.chap3Exercise" />
-      <module name="webdriver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.testSuccessfulLogin (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ForgottenpasswordTests.testForgottenPassword (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +102,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="login" />
-      <option name="MAIN_CLASS_NAME" value="login.LoginTests" />
-      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="MAIN_CLASS_NAME" value="login.ForgottenpasswordTests" />
+      <option name="METHOD_NAME" value="testForgottenPassword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.testSuccessfulLogin (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ForgottenpasswordTests.testForgottenPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +120,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="login" />
-      <option name="MAIN_CLASS_NAME" value="login.LoginTests" />
-      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="MAIN_CLASS_NAME" value="login.ForgottenpasswordTests" />
+      <option name="METHOD_NAME" value="testForgottenPassword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,7 +129,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HoverTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hover.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hover" />
+      <option name="MAIN_CLASS_NAME" value="hover.HoverTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.testSuccessfulLogin (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver" />
       <extension name="coverage">
         <pattern>
@@ -142,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTests.testSuccessfulLogin (2)" />
-        <item itemvalue="TestNG.LoginTests.testSuccessfulLogin (1)" />
-        <item itemvalue="TestNG.LoginTests.testSuccessfulLogin" />
-        <item itemvalue="Application.chap3Exercise" />
-        <item itemvalue="Application.BaseTests" />
+        <item itemvalue="TestNG.HoverTests" />
+        <item itemvalue="TestNG.ForgottenpasswordTests.testForgottenPassword (1)" />
+        <item itemvalue="TestNG.ForgottenpasswordTests.testForgottenPassword" />
+        <item itemvalue="TestNG.DropdownTests.testSelectOption" />
+        <item itemvalue="TestNG.LoginTests.testSuccessfulLogin (3)" />
       </list>
     </recent_temporary>
   </component>
